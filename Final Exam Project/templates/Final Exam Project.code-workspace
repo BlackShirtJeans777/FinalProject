@@ -1,0 +1,22 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../../Downloads/SummerCamp"
+		},
+		{
+			"path": "../../../Downloads/PhotoViewer"
+		},
+		{
+			"path": "../../../Downloads/DataValidation"
+		},
+		{
+			"path": "../../../Downloads/Supermarket"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "TerpStore"
+	}
+}

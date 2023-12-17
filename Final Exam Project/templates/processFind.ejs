@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<title>Your Shoe</title>
+
+    <style> 
+
+		body {
+		  /* Use background-size to control how the background image is displayed */
+		  background-image: url(jordanCircle.jpg);
+		  background-size: contain; /* You can use 'contain' or other values based on your preference */
+		  margin: 0; /* Remove default body margin */
+		  font-family: Arial, sans-serif; /* Set a fallback font */
+		  margin: 0; height: 100%; overflow: hidden;
+	  }
+
+	  h1{
+		position: relative;
+		color: red;
+		background-color: white;
+		width: 40rem;
+		font-size: 3rem;
+		text-align: center;
+	  }
+
+      a {
+           
+            color: red;
+            background-color: white;
+            width: 10rem;
+            font-size: 2rem;
+          }
+
+		  </style>
+</head>
+
+<body>
+	<h1><%- name %></h1>
+    <div id="display">
+        <%- shoeToDisplay %>
+    </div><br><br>
+
+    
+    <a href="/">HOME</a>
+</body>
+
+</html>

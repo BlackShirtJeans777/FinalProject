@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+
+    <head>
+	    <meta charset="utf-8" />
+	    <title>Add Shoe</title>
+
+
+        <style> 
+
+            body {
+              /* Use background-size to control how the background image is displayed */
+              background-image: url(jordanCircle.jpg);
+              background-size: contain; /* You can use 'contain' or other values based on your preference */
+              margin: 0; /* Remove default body margin */
+              font-family: Arial, sans-serif; /* Set a fallback font */
+              margin: 0; height: 100%; overflow: hidden;
+          }
+  
+          #this {
+              background-color: white;
+              text-align: center; /* Center align text in the div */
+              padding: 20px; /* Add some padding for better readability */
+              position: relative;
+              top: 20em;
+              height: 10em;
+              width: 30em;
+              left: 35em;
+          }
+          h1{
+            position: relative;
+            left: 43rem;
+            top: 15rem;
+            color: red;
+            background-color: white;
+            width: 15rem;
+            font-size: 3rem;
+            text-align: center;
+          }
+
+          a {
+            position: relative;
+            left: 48rem;
+            top: 35rem;
+            color: red;
+            background-color: white;
+            width: 10rem;
+            font-size: 2rem;
+          }
+              
+              </style>
+    </head>
+    <body>
+    <h1>Add Shoe</h1>
+    <form id="this" action="/postShoeApp" method="post">
+        <fieldset>
+            <strong>Jordan Number: </strong><input type="text" name="number"/><br>
+            <strong>Shoe Size: </strong><input type="text" name="size"><br>
+            <strong>Color:</strong><input size="2" type="text" name="color"><br><br>
+
+            <div id="display"></div><br><br>
+
+        </fieldset><br>
+
+        <input type="reset" />
+        <input id="submit" type="submit" value="Add Heat"/>
+        <hr>
+
+    </form><br>
+    <a href="/">HOME</a>
+    </body>
+</html>
